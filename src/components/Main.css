@@ -1,0 +1,176 @@
+.Body{
+    display: flex;
+    height: 100%;
+    border: 1px solid #171515;
+    width: 100%;
+    color: white;
+    background: #171515;
+    
+    margin-top: 3rem;
+    margin-left: 10rem;
+    
+    padding-top: 30px;
+    padding-left: 6rem;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+
+.Playlist-title {
+    padding-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+
+h1{
+    display: flex;
+    width: 20rem;
+    padding-top: 50px;
+    padding-right: 20px;
+
+}
+
+h5{
+    display: flex;
+    width: 5rem;
+    position:relative;
+    left: 90rem;
+    bottom: 2rem;
+    
+}
+
+h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+p{
+    padding-top: 40px;
+    
+}
+
+
+.mainContent{
+    width: 100%;
+    padding-right: 20rem;
+    
+}
+
+
+.cardswrap{
+    display: flex;
+    padding: 10px;
+
+}
+
+
+
+.card{
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    overflow: hidden;
+    padding: 1.2rem 1.2rem 0.8rem; 
+    transition: .5s color;
+    margin-right: 1rem;
+    
+}
+
+.card:hover{
+    background-color: #181818;
+    transform: scale(1.1);
+}
+
+.cardswrap .playIcon:hover{
+    opacity: 1;
+}
+
+
+
+
+.cardImage{
+    height: 250px; 
+    
+}
+
+.cardImage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.cardContent{
+    padding-top: 10px;
+    
+}
+
+
+
+.cardContent > h3{
+    text-align: center;
+    padding-top: 2.3rem;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    align-items: center;
+}
+
+.playIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    background: red;
+    opacity: 0;
+    margin-left: 5rem;
+    
+}
+
+.playIcon:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Body{
+
+        width: 100%;
+        height: 100%;
+        padding: auto;
+        margin: auto;
+        
+    }
+
+    .Playlist-title{
+        padding-left: 8rem;
+        padding-top: 4rem;
+    }
+
+    h1{
+        display: flex;
+        padding-top: 7rem;
+        padding-left: 50px;
+        
+    }
+    
+}
+
+

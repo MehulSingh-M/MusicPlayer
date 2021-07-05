@@ -1,0 +1,110 @@
+.sidebar{
+    width: 13rem;
+    
+    background-color: black;
+    border: 1px solid black;
+    height: 100vh;
+    position: fixed;
+    
+}
+
+.sidebar > img{
+    padding-top: 2rem;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+h3{
+    color: white;
+    padding-left: 10px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h3.active{
+    border-left: 2px solid white;
+    padding-left: 18px;
+}
+
+
+.new-playlist{
+    
+    position: absolute;
+    cursor: pointer;
+    bottom: 80px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.title{
+    color:white;
+}
+
+.modal-content{
+    align-items: center;
+    
+}
+
+.content-wrap > button{
+    background-color: orange;
+    color: white;
+    padding-right: 5rem;
+    padding: 12.5px 30px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:13px;
+    border: none;
+    cursor: pointer;
+    margin-left: 6rem;
+}
+
+.title {
+    margin-left: 3rem;
+    margin-bottom:25px;
+    font-weight:bold;
+    color:white;
+    width: 100%;
+}
+
+input {
+    margin-bottom:10px;
+    height: 25px;
+    padding-left: 12px;
+    margin-left:2rem;
+    font-size: 16px;
+    width: 100%;
+    color:black;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        width: 20%;
+        height: 100%;
+    } 
+
+    .sidebar > img{
+        width: 100%;
+        margin-right: 80px;
+        margin-left: -20%;
+    }
+    
+    h3{
+        padding-left: unset;
+    }
+
+    h3.active{
+        padding-right: 80px;
+    }
+
+    .new-playlist{
+        padding-left: -90rem;
+    }
+
+    
+
+
+}

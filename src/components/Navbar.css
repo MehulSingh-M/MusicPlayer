@@ -1,0 +1,99 @@
+.Navbar{
+    display: flex;
+    
+    
+    
+    
+}
+
+
+
+.main .navbar{
+
+    height: 3.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    
+
+}
+
+.header-center > h1{
+    bottom: 1.5rem;
+    position: relative;
+    left: 20rem;
+    justify-content: space-between;
+    
+}
+
+.header-right{
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 2rem;
+    justify-content: space-between;
+    
+}
+
+.button {
+    width: 3rem;
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.header-right > button{
+    
+    display: flex;
+   background-color: black;
+   color: white;
+   border-radius: 15px;
+   padding-left: 20px;
+   padding-right: 1rem;
+   padding-bottom: 3px;
+   padding-top: 5px;
+   
+   justify-content: space-between;
+   font-size: 11pt;
+   font-weight: 800;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-right > button > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.buttonsignin-button > button {
+    
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 1rem;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    margin-left: 5rem;
+    justify-content: space-between;
+    font-size: 11pt;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonsignin-button > button > a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+}

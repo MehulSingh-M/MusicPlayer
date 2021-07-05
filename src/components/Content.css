@@ -1,0 +1,9 @@
+.Content{
+    height: 100vh;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 100rem;
+    color: white;
+    background: #171515;
+    overflow-y: overlay;
+}

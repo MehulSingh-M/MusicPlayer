@@ -1,0 +1,20 @@
+.control{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20rem;
+}
+
+input.input{
+    
+    padding: 10px;
+    border-radius: 30px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+
+.cardswrap{
+    display: flex;
+    padding: 20px;
+
+}
